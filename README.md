@@ -1,4 +1,4 @@
-# 📚 Atlantic Books Data Analysis & Dashboard
+# 📚 Atlanticbooks.com Data Analysis & Dashboard
 This repository contains a comprehensive end-to-end data pipeline project that involves web scraping book data from Atlantic Books, cleaning and preprocessing the data, and performing exploratory data analysis (EDA) to gain insights. The data is then loaded into a MySQL database and connected to Power BI for visualization and interactive Power BI dashboards.
 
 ## 🚀 Features
@@ -79,6 +79,91 @@ This repository contains a comprehensive end-to-end data pipeline project that i
 
 `plt.show()`
 
+![Image](https://github.com/user-attachments/assets/3fcb611e-3a5a-41cd-94c2-1496370fea1d)
 
+**🔹 Step 3: MySQL Integration**
+
+* Stores structured data in MySQL for querying.
+* Performs price analysis using SQL queries.
+
+**Example SQL Query:**
+
+from tabulate import tabulate
+
+`# Count of books published/year`
+
+`query = """`
+
+`SELECT YEAR(publication_date) AS year, COUNT(*) AS total_books`
+
+`FROM books_data`
+
+`GROUP BY YEAR(publication_date)  -- ✅ Explicitly grouping by YEAR(publication_date)`
+
+`ORDER BY year DESC;`
+
+`"""`
+
+`result_df = pd.read_sql_query(query, engine)`
+
+`# Print result in table format`
+
+`print(tabulate(result_df, headers='keys', tablefmt='psql'))`
+
+|    | year | total_books |
+|----|------|--------------|
+|  0 | 2025 |           14 |
+|  1 | 2024 |           50 |
+|  2 | 2023 |          105 |
+|  3 | 2022 |           32 |
+|  4 | 2021 |           17 |
+|  5 | 2020 |           12 |
+|  6 | 2019 |           32 |
+|  7 | 2018 |           16 |
+|  8 | 2017 |            8 |
+|  9 | 2016 |            7 |
+| 10 | 2015 |            3 |
+| 11 | 2014 |            2 |
+| 12 | 2013 |            2 |
+| 13 | 2012 |            4 |
+| 14 | 2010 |            3 |
+| 15 | 2009 |            9 |
+| 16 | 2008 |            1 |
+| 17 | 2006 |            2 |
+| 18 | 2000 |            1 |
+| 19 | 1994 |            2 |
+
+**🔹 Step 4: Power BI Dashboard**
+* Visualizes price distribution, category trends, and discount analysis.
+* Provides interactive filters for deep data exploration.
+
+## 📊 Power BI Dashboard Preview**
+
+**🚀 Dashboard Highlights:**
+
+* 📈 Price Trends: Distribution of book prices across categories.
+
+* 📊 Category Popularity: Number of books available per category.
+
+* 🏷 Discount Insights: How much discount is offered across different books.
+![Image](https://github.com/user-attachments/assets/5c18ab32-b247-4d10-89b9-00e8a59facd3)
+
+## 🔍 Key Insights
+
+📌 Price Variability: Fiction, Non-Fiction, and Classics have distinct price ranges.
+
+* Fiction books range from ₹94 (Twelfth Night) to ₹1,228 (The Thomas Hardy Collection).
+
+* Non-Fiction books range from ₹94 to ₹1,196 (Capitalism, Socialism and Democracy).
+
+* Classics range from ₹94 to ₹1,122.
+
+📌 Pricing Strategy: Publishers might use penetration pricing to boost sales, especially for collections and classics.
+
+📌 Category Popularity:
+
+* Fiction has the highest number of books.
+
+* Classics and Non-Fiction follow, with Non-Fiction covering diverse subjects like Economics, Sociology, and Health.
 
 
