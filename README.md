@@ -170,8 +170,6 @@ from tabulate import tabulate
 
 * Classics and Non-Fiction follow, with Non-Fiction covering diverse subjects like Economics, Sociology, and Health.
 
-💙 If you like this project, give it a ⭐ and share it with friends!
-
 ## Contact
 
 Prakash Gaurav 
@@ -179,3 +177,6 @@ Prakash Gaurav
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)](#) - [prakashgaurav98@gmail.com](mailto:prakashgaurav98@gmail.com)
 
 [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](#) - www.linkedin.com/in/prakash-gaurav-519164268
+
+## 🙋‍♂️ Support
+💙 If you like this project, give it a ⭐ and share it with friends!
