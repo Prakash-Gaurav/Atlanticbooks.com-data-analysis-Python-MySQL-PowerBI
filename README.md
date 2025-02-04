@@ -1,6 +1,8 @@
 # 📚 Atlanticbooks.com Data Analysis & Dashboard
 This repository contains a comprehensive end-to-end data pipeline project that involves web scraping book data from Atlantic Books, cleaning and preprocessing the data, and performing exploratory data analysis (EDA) to gain insights. The data is then loaded into a MySQL database and connected to Power BI for visualization and interactive Power BI dashboards.
 
+
+
 ## 🚀 Features
 
 ✅ Web Scraping: Automated extraction of book details (Fiction, Non-Fiction, Classics) using Selenium.
@@ -13,14 +15,14 @@ This repository contains a comprehensive end-to-end data pipeline project that i
 
 ## Technologies Used
 
-* Python
-* Selenium
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* MySQL
-* Power BI
+* ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+* [![Selenium](https://img.shields.io/badge/Selenium-43B02A?logo=selenium&logoColor=fff)](#)
+* [![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff)](#) 
+* [![NumPy](https://img.shields.io/badge/NumPy-4DABCF?logo=numpy&logoColor=fff)](#)
+* [![Matplotlib](https://custom-icon-badges.demolab.com/badge/Matplotlib-71D291?logo=matplotlib&logoColor=fff)](#)
+* ![Seaborn](https://img.shields.io/badge/Seaborn-0.13.2-blue.svg)
+* ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+* ![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=white)
 
 ## ⚙️ Installation
 
@@ -39,6 +41,8 @@ This repository contains a comprehensive end-to-end data pipeline project that i
 ## 📊 Data Pipeline Workflow
 
 **🔹 Step 1: Web Scraping (Atlanticbooks.com Scrapped_EDA_MySQL.ipynb)**
+
+![Image](https://github.com/user-attachments/assets/444187d7-ea37-449d-bd72-e136d9f98647)
 * Uses Selenium for automated extraction of book details.
 * Handles pagination and navigates to detailed pages.
 
@@ -165,5 +169,9 @@ from tabulate import tabulate
 * Fiction has the highest number of books.
 
 * Classics and Non-Fiction follow, with Non-Fiction covering diverse subjects like Economics, Sociology, and Health.
+
+## Contact
+
+Prakash Gaurav - [prakashgaurav98@gmail.com](mailto:prakashgaurav98@gmail.com)
 
 
