@@ -1,7 +1,7 @@
 # 📚 Atlanticbooks.com Data Analysis & Dashboard
 This repository contains a comprehensive end-to-end data pipeline project that involves web scraping book data from Atlantic Books, cleaning and preprocessing the data, and performing exploratory data analysis (EDA) to gain insights. The data is then loaded into a MySQL database and connected to Power BI for visualization and interactive Power BI dashboards.
 
-
+![Image](https://github.com/user-attachments/assets/f3e6cacb-d96d-4d06-9d78-279c3f62409d)
 
 ## 🚀 Features
 
@@ -172,6 +172,10 @@ from tabulate import tabulate
 
 ## Contact
 
-Prakash Gaurav - [prakashgaurav98@gmail.com](mailto:prakashgaurav98@gmail.com)
+Prakash Gaurav 
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)](#) - [prakashgaurav98@gmail.com](mailto:prakashgaurav98@gmail.com)
+
+[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](#) - www.linkedin.com/in/prakash-gaurav-519164268
 
 
